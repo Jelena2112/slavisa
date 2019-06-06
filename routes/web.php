@@ -12,10 +12,10 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages/home');
 });
 
 Route::get('welcome/{locale}', function ($locale) {
     App::setLocale($locale);
-    return view('welcome');
+    return view('index');
 });
