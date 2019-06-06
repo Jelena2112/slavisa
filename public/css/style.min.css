@@ -1,2 +1,2 @@
-*{margin:0;padding:0}
+body{font-size:20px}.link{text-decoration:none;cursor:pointer}.flex{display:flex}.navbar{width:100%;height:90px;display:flex;position:fixed;justify-content:center}.navDiv{width:1300px;height:auto;justify-content:space-around}.navIcon{width:120px;height:auto}.navMain{width:800px;height:100%;justify-content:center;align-items:center;line-height:90px;text-align:center}.navbarItem{width:20%;height:100%}.home{width:100%;height:100vh;background:url("../images/milna.jpg");background-repeat:no-repeat;background-position:100% 100%}*{margin:0;padding:0}
 /*# sourceMappingURL=style.min.css.map */

@@ -1,5 +1,11 @@
 <?php
 
 return [
-    'welcome' => 'Welcome to our application'
+    'navigation' => [
+        'home' => 'Home',
+        'about' => 'About us',
+        'apartments' => 'Apartments',
+        'contact' => 'Contact',
+        'book' => 'Book now'
+    ]
 ];
