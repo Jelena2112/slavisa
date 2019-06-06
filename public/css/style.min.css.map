@@ -3,5 +3,5 @@
 "mappings": "AAAA,CAAC,CACC,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC",
 "sources": ["../../resources/sass/style.sass"],
 "names": [],
-"file": "style.css"
+"file": "style.min.css"
 }
