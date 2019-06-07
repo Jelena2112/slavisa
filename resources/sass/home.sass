@@ -11,19 +11,31 @@
   background-color: $mobileColor
   border-radius: 5px
 
-.formHome
+.formHome, .select, .submit
   font-size: 1.2em
   margin: 0.5em
   border: none
-
-.select
   height: 36px
 
 .submit
-  width: 120px
-  height: 36px
+  width: 160px
+  margin: 0.8em
+
+.text
+  margin: 0
+  line-height: 1.6
 
 @media only screen and (max-width: 1024px)
   .home
     height: 650px
     background-size: cover
+
+  .homeForm
+    width: 85%
+    flex-direction: column
+
+  .submit
+    width: 200px
+
+
+
