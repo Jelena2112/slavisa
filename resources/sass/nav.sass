@@ -25,15 +25,30 @@
   width: 20%
   height: 100%
 
+.mobNav
+  display: none
+  font-size: 2.3em
+  width: 70px
+  height: 70px
+  justify-content: center
+  align-items: center
+
 @media only screen and (max-width: 1024px)
   .navbar
     height: 70px
+    background-color: $mobileColor
 
   .navDiv
     width: 100%
+    justify-content: space-between
 
   .navMain
     display: none
+
+  .mobNav
+    display: flex
+
+
 
 
 
