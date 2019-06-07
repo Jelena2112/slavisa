@@ -17,9 +17,9 @@
            <span class="wrapForm flex flexCenter">
                <p class="formHome text">For:</p>
                <select class="formHome select">
-                   <option value="2">2 persons</option>
-                   <option value="3">3 persons</option>
-                   <option value="4">4 persons</option>
+                   @for($i = 1; $i < 11; $i++)
+                       <option value="{{ $i }}">{{ $i }} people</option>
+                   @endfor
                </select>
            </span>
 
