@@ -1,4 +1,4 @@
-<nav class="navbar">
+<nav class="navbar flex">
     <div class="navDiv flex">
         <a class="navIcon link" href="#">
         </a>
