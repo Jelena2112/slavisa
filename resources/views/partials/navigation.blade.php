@@ -9,7 +9,7 @@
             <a class="navbarItem link">home</a>
             <a class="navbarItem link">contac</a>
         </div>
-        <a class="mobNav">
+        <a class="mobNav flexCenter">
             <i class="fas fa-bars fontColorWhite"></i>
         </a>
     </div>
