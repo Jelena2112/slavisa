@@ -18,4 +18,16 @@ $(document).ready(function (){
 
 
     });
+
+    $(window).scroll(function (){
+        if($(window).scrollTop() > 100 ){
+            $(".navbar").css({"background-color":"white"});
+            $(".navbarItem").css({"color":"black"});
+        }
+        else{
+            $(".navbar").css({"background-color":"transparent"});
+            $(".navbarItem").css({"color":"white"});
+        }
+
+    });
 });
