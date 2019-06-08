@@ -29,12 +29,12 @@ $(document).ready(function (){
     $(window).scroll(function (){
         if(windowWidth > 1024){
             if($(window).scrollTop() > 100 ){
-                $(".navbar").css({"background-color":"white"});
-                $(".navbarItem").css({"color":"black"});
+                $(".navbar").css({"background-color":"white", "transition-duration":"500ms"});
+                $(".navbarItem").css({"color":"black", "transition-duration":"500ms"});
             }
             else{
-                $(".navbar").css({"background-color":"transparent"});
-                $(".navbarItem").css({"color":"white"});
+                $(".navbar").css({"background-color":"transparent", "transition-duration":"500ms"});
+                $(".navbarItem").css({"color":"white", "transition-duration":"500ms"});
             }
         }
 
