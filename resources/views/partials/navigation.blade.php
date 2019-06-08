@@ -4,10 +4,10 @@
         </a>
         <div class="navMain flex flexCenter fontColorWhite">
             <a class="navbarItem fontColorWhite link" href="#">Home</a>
-            <a class="navbarItem link" href="#">home</a>
-            <a class="navbarItem link" href="#">home</a>
-            <a class="navbarItem link" href="#">home</a>
-            <a class="navbarItem link" href="#">contac</a>
+            <a class="navbarItem fontColorWhite  link" href="#">home</a>
+            <a class="navbarItem fontColorWhite  link" href="#">home</a>
+            <a class="navbarItem fontColorWhite  link" href="#">home</a>
+            <a class="navbarItem fontColorWhite  link" href="#">contac</a>
         </div>
 
         <a class="mobNav flexCenter">

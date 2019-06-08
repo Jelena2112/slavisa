@@ -5,7 +5,7 @@
        <form class="homeForm flex flexCenter">
 
            <span class="wrapForm flex flexCenter">
-               <p class="formHome text">Check-in:</p>
+               <p class="formHome text">Check-in: </p>
                <input  class="formHome inputDate" type="date" name="start" placeholder="check-in date">
            </span>
 

@@ -34,15 +34,30 @@
 
 @media only screen and (min-width: 641px) and (max-width: 1024px)
   .home
-    height: 900px
+    height: 850px
+    background-size: cover
 
-@media only screen and (max-width: 1024px)
+  .homeForm
+    width: 270px
+    flex-direction: column
+
+  .formHome, .select, .submit
+    height: 50px
+    font-size: 1.1em
+
+  .submit
+    width: 200px
+
+  .text
+    line-height: 2.3
+
+@media only screen and (max-width: 640px)
   .home
     height: 650px
     background-size: cover
 
   .homeForm
-    width: 85%
+    width: 270px
     flex-direction: column
 
   .formHome, .select, .submit

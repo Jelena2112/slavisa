@@ -4,13 +4,13 @@ $(document).ready(function (){
 
     $(".mobNav").click(function (){
         if(!navDown){
-            $(".navMain").css({"display":"flex"}).animate({"height":"250px"});
+            $(".navMain").css({"display":"flex", "height":"0px"}).animate({"height":"250px"});
             $(".fa-bars").hide();
             $(".mobNav2").show();
             navDown = true;
         }
         else if(navDown){
-            $(".navMain").animate({"height":"0"}).css({"display":"none"});
+            $(".navMain").slideUp();
             $(".mobNav2").hide();
             $(".fa-bars").show();
             navDown = false;
