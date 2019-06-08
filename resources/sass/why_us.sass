@@ -1,0 +1,62 @@
+.whyUs
+  width: 100%
+  height: 60vh
+  background-color: $colorGrey
+  flex-direction: column
+
+.whyUsHeader
+  font-size: 2em
+  padding: 1em
+  font-family: $fontMain
+  font-weight: 300
+
+.whySection
+  width: 100%
+  height: auto
+
+.whyArticle
+  width: 30%
+  height: auto
+  padding: 1em
+
+.whyLink
+  width: 80%
+  height: 250px
+  font-family: $fontMain
+  text-align: center
+
+.whyLink:hover
+  color: $mobileColor
+  transition-duration: 500ms
+
+.whyText
+  font-size: 1.1em
+  color: $textGrey
+  padding: 2em
+  font-family: $fontSecond
+  text-align: center
+  line-height: 1.5
+
+@media only screen and (min-width: 1025px) and (max-width: 1250px)
+  .whyUs
+    height: 45vh
+
+  .whyArticle
+    padding: 0.2em
+
+  .whyText
+    padding: 0.5em
+    font-size: 1em
+
+@media only screen and (max-width: 1024px)
+  .whyUs
+    height: 950px
+    padding: 50px 0 0 0
+
+  .whySection
+    flex-direction: column
+
+  .whyArticle
+    width: 80%
+    padding: 0.5em
+

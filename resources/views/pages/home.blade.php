@@ -29,4 +29,6 @@
 
    </section>
 
+    @include("partials.why_us")
+
 @endsection("content")
