@@ -31,4 +31,6 @@
 
     @include("partials.why_us")
 
+    @include("partials.apartments")
+
 @endsection("content")
