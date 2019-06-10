@@ -40,6 +40,15 @@
 
         </article>
 
+        <article class="itemArticle">
+
+            <h2 class="servicesItems"><i class="fas fa-bath servicesIcon"></i>Bath</h2>
+
+            <p class="servicesText textItem">Room have private bathroom with a hair dryer and a bath.</p>
+
+        </article>
+
+
     </section>
 
 
@@ -64,6 +73,14 @@
         <article class="itemArticle">
 
             <h2 class="servicesItems"><i class="fas fa-tv servicesIcon"></i>Flat-screen TV</h2>
+
+            <p class="servicesText textItem">All guest rooms at the hotel come with a seating area, a flat-screen TV with satellite channels.</p>
+
+        </article>
+
+        <article class="itemArticle">
+
+            <h2 class="servicesItems"><i class="fas fa-wind servicesIcon"></i>Air-conditioning</h2>
 
             <p class="servicesText textItem">All guest rooms at the hotel come with a seating area, a flat-screen TV with satellite channels.</p>
 
