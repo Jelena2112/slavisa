@@ -48,9 +48,7 @@
 
         </article>
 
-
     </section>
-
 
     <section class="servicesSection flex flexCenter">
 
