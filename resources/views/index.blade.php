@@ -17,6 +17,8 @@
 
         @include("partials.footer")
 
+        @include("partials.services")
+
         @include("partials.call_now")
 
         <script src="js/jquery.min.js"></script>
