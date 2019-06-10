@@ -1,0 +1,64 @@
+.services
+  width: 100%
+  height: auto
+  background-color: $colorGrey
+  flex-wrap: wrap
+  justify-content: space-around
+  padding: 1em 0
+
+.servicesSection
+  width: 25%
+  height: 100%
+  justify-content: left
+  flex-direction: column
+  padding: 0.5em
+
+.servicesHeader
+  font-size: 2em
+  font-family: $fontMain
+  padding: 1em 1em 1em 0
+  font-weight: 200
+
+.servicesText
+  font-size: 0.9em
+  font-family: $fontSecond
+  color: $textGrey
+  line-height: 1.7
+
+.itemArticle
+  width: 100%
+  height: auto
+  padding-bottom: 1em
+
+.servicesItems
+  font-size: 1.3em
+  font-family: $fontMain
+  padding: 0.5em 0.5em 0.5em 0
+  color: $mobileColor
+  font-weight: 200
+
+.servicesIcon
+  padding-right: 1em
+  font-size: 2em
+
+.textItem
+  padding-left: 5em
+
+@media only screen and (min-width: 641px) and (max-width: 1300px)
+  .servicesSection
+    width: 45%
+
+  .servicesMain
+    width: 80%
+
+@media only screen and (max-width: 640px)
+  .services
+    flex-direction: column
+
+  .servicesSection
+    width: 90%
+    padding: 0
+
+  .textItem
+    padding-left: 1em
+
