@@ -21,6 +21,8 @@
 
         @include("partials.call_now")
 
+        @include("partials.map")
+
         <script src="js/jquery.min.js"></script>
         <script src="js/style.js"></script>
     </body>
