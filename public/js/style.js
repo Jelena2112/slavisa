@@ -4,6 +4,17 @@ $(document).ready(function (){
     var windowWidth = $(window).width();
     var navClick = false;
 
+    $("#map").css("width","700px");
+
+    if(windowWidth < 640){
+        $('#map').css('width','350px');
+        $('#map').css('height','250px');
+    }
+    else if(windowWidth < 1024 || windowWidth > 641){
+        $('#map').css('width','640px');
+        $('#map').css('height','450px');
+
+
     $(".mobNav").click(function (){
         if(!navClick){
             navClick = true;
@@ -39,4 +50,5 @@ $(document).ready(function (){
         }
 
     });
+
 });

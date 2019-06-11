@@ -43,5 +43,4 @@
 
     <a class="apartmentsMore link" href="#">VIEW MOORE</a>
 
-
 </div>
