@@ -6,13 +6,11 @@
 
            <span class="wrapForm flex flexCenter">
                <p class="formHome text">Check-in: </p>
-               <input  class="formHome inputDate" type="date" name="start" placeholder="check-in date">
+               <input  class="formHome inputDate" type="date" name="dates" value="01/06/2019- 15/06/2019">
+
            </span>
 
-           <span class="wrapForm flex flexCenter">
-               <p class="formHome text">Check-out:</p>
-               <input  class="formHome inputDate" type="date" name="end">
-           </span>
+
 
            <span class="wrapForm flex flexCenter">
                <p class="formHome text">For:</p>

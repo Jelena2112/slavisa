@@ -4,6 +4,7 @@ $(document).ready(function (){
     var windowWidth = $(window).width();
     var navClick = false;
 
+
     var images = [
         "../images/milna_photoshop.png",
         "../images/milna1.jpg",
