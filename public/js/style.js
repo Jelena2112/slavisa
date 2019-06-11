@@ -4,15 +4,33 @@ $(document).ready(function (){
     var windowWidth = $(window).width();
     var navClick = false;
 
-    $("#map").css("width","700px");
+    var images = [
+        "../images/milna_photoshop.png",
+        "../images/milna1.jpg",
+        "../images/milna2.jpg"
+    ];
+    var currentImage = 0;
 
-    if(windowWidth < 640){
-        $('#map').css('width','350px');
-        $('#map').css('height','250px');
-    }
-    else if(windowWidth < 1024 || windowWidth > 641){
-        $('#map').css('width','640px');
-        $('#map').css('height','450px');
+    setInterval(function (){
+
+        if(currentImage == 0){
+            currentImage++;
+        }
+        else if(currentImage == 1){
+            currentImage++;
+        }
+        else if(currentImage == 2)
+        {
+            currentImage = 0;
+        }
+
+        $(".home").css({
+            "background": "url(" + images[currentImage] + ")",
+            "background-size": "100% 100%",
+            "background-repeat": "no-repeat"
+        });
+
+    },2000);
 
 
     $(".mobNav").click(function (){
