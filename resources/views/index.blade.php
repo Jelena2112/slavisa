@@ -19,8 +19,9 @@
 
         <script src="js/jquery.min.js"></script>
         <script src="js/style.js"></script>
-
-
+        <script type="text/javascript" src="js/moment.min.js"></script>
+        <script type="text/javascript" src="js/daterangepicker.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/daterangepicker.min.css" />
     </body>
 
 

@@ -4,13 +4,10 @@
    <section class="home flex flexCenter">
        <form class="homeForm flex flexCenter">
 
-           <span class="wrapForm flex flexCenter">
+           <span class="wrapForm date flex flexCenter">
                <p class="formHome text">Check-in: </p>
-               <input  class="formHome inputDate" type="date" name="dates" value="01/06/2019- 15/06/2019">
-
+               <input class="datepicker formHome text" type="text" name="datetimes" value="Toma" />
            </span>
-
-
 
            <span class="wrapForm flex flexCenter">
                <p class="formHome text">For:</p>
