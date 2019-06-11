@@ -3,10 +3,6 @@
   height: 600px
   flex-wrap: wrap
 
-.map_frame
-  width: 50%
-  height: 100%
-
 .mapInfo
   height: 100%
   width: 50%
@@ -58,17 +54,31 @@
   width: 60%
   height: 100%
 
+.map_frame
+  width: 50%
+  height: 100%
+
 @media only screen and (min-width: 641px) and (max-width: 1024px)
-  .mapInfo
-    width: 50%!important
+  .map
+    flex-direction: column
+    height: auto
+
+  .mapInfo, .map_frame
+    width: 100%
+
+  .map_frame
+    height: 400px
 
 @media only screen and (max-width: 1024px)
   .map
     flex-direction: column
     height: auto
 
-  .mapInfo
+  .mapInfo, .map_frame
     width: 100%
+
+  .map_frame
+    height: 280px
 
   .infoHeader
     padding: 0.5em

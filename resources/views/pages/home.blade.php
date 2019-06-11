@@ -33,4 +33,10 @@
 
     @include("partials.apartments")
 
+   @include("partials.services")
+
+   @include("partials.call_now")
+
+   @include("partials.map")
+
 @endsection("content")
