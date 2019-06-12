@@ -1,6 +1,6 @@
 .apartments
   width: 100%
-  height: calc(100vh - 90px)
+  height: auto
   background-color: $colorBlue
   flex-direction: column
 
@@ -18,10 +18,10 @@
   flex-wrap: wrap
 
 .apartmentsArticle
-  width: 470px
+  width: 440px
   height: 510px
   flex-direction: column
-  padding: 0.8em
+  padding: 0.5em
 
 .image
   width: 100%
@@ -63,9 +63,6 @@
   transition-duration: 500ms
 
 @media only screen and (min-width: 1025px) and (max-width: 1450px)
-  .apartments
-    height: auto
-
   .apartmentsArticle
     width: 400px
     height: 400px
@@ -77,9 +74,6 @@
     padding: 0.3em 0.5em
 
 @media only screen and (min-width: 641px) and (max-width: 1024px)
-  .apartments
-    height: auto
-
   .apartmentsArticle
     height: 400px
 
@@ -90,9 +84,6 @@
     padding: 0.3em 0.5em 0.2em 1.5em
 
 @media only screen and (max-width: 640px)
-  .apartments
-    height: auto
-
   .apartmentsArticle
     height: 350px
 
