@@ -1,6 +1,6 @@
 <div class="services flex flexCenter">
 
-    <section class="servicesSection servicesMain">
+    <section class="servicesSection servicesMain flex">
 
         <h1 class="servicesHeader">OUR SERVICES</h1>
 
@@ -11,6 +11,8 @@
         <p class="servicesText">CASTLE “KASTIL JELA” offers a terrace. The area is popular for cycling, and bike hire is available at the accommodation.</p><br>
 
         <p class="servicesText">Staff speak Italian, English, German and Croatian at the 24-hour front desk.</p>
+
+        <a class="about link" href="#">ABOUT US</a>
 
     </section>
 
@@ -85,5 +87,6 @@
         </article>
 
     </section>
+
 
 </div>
