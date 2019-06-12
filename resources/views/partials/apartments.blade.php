@@ -5,8 +5,8 @@
 
         <article class="apartmentsArticle flex">
             <img class="image" src="images/milna.jpg" alt="image">
-            <div class="apartmentDiv">
-                <h2 class="apartmentsRoom">DELUXE KING STUDIO</h2>
+            <div class="apartmentDiv flex">
+                <a class="apartmentsRoom link">DELUXE KING STUDIO</a>
                 <ul class="apartmentUl">
                     <li class="apartmentList">Room size 33 m²</li>
                     <li class="apartmentList">1 large double bed</li>
@@ -19,8 +19,8 @@
 
         <article class="apartmentsArticle flex">
             <img class="image" src="images/milna.jpg" alt="image">
-            <div class="apartmentDiv">
-                <h2 class="apartmentsRoom">DELUXE SUITE WITH SPA BATH</h2>
+            <div class="apartmentDiv flex">
+                <a class="apartmentsRoom link">DELUXE SUITE WITH SPA BATH</a>
                 <ul class="apartmentUl">
                     <li class="apartmentList">Room size 33 m²</li>
                     <li class="apartmentList">1 extra-large double bed</li>
@@ -33,8 +33,8 @@
 
         <article class="apartmentsArticle flex">
             <img class="image" src="images/milna.jpg" alt="image">
-            <div class="apartmentDiv">
-                <h2 class="apartmentsRoom">SUPERIOR TRIPLE ROOM WITH SEA VIEW</h2>
+            <div class="apartmentDiv flex">
+                <a class="apartmentsRoom link">SUPERIOR TRIPLE ROOM WITH SEA VIEW</a>
                 <ul class="apartmentUl">
                     <li class="apartmentList">Room size 50 m²</li>
                     <li class="apartmentList">1 single bed</li>
