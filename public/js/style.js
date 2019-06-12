@@ -25,11 +25,12 @@ $(document).ready(function (){
             currentImage = 0;
         }
 
-        $(".home").css({
+        $(".home").animate({opacity: 0.3}, 'slow').css({
             "background": "url(" + images[currentImage] + ")",
             "background-size": "100% 100%",
             "background-repeat": "no-repeat"
-        });
+
+        }).animate({opacity: 1});
 
     },2000);
 
