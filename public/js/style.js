@@ -4,7 +4,6 @@ $(document).ready(function (){
     var windowWidth = $(window).width();
     var navClick = false;
 
-
     var images = [
         "../images/milna_photoshop.png",
         "../images/milna1.jpg",
@@ -25,15 +24,13 @@ $(document).ready(function (){
             currentImage = 0;
         }
 
-        $(".home").animate({opacity: 0.3}, 'slow').css({
+        $(".home").css({
             "background": "url(" + images[currentImage] + ")",
             "background-size": "100% 100%",
             "background-repeat": "no-repeat"
-
-        }).animate({opacity: 1});
+        });
 
     },2000);
-
 
     $(".mobNav").click(function (){
         if(!navClick){
