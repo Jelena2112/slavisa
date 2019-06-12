@@ -11,6 +11,7 @@
                     <li class="apartmentList">Room size 33 m²</li>
                     <li class="apartmentList">1 large double bed</li>
                     <li class="apartmentList">Patio</li>
+                    <li class="apartmentList">Spa bath</li>
                     <li class="apartmentList">Private bathroom</li>
                 </ul>
             </div>
@@ -24,6 +25,7 @@
                     <li class="apartmentList">Room size 33 m²</li>
                     <li class="apartmentList">1 extra-large double bed</li>
                     <li class="apartmentList">Terrace</li>
+                    <li class="apartmentList">Spa bath</li>
                     <li class="apartmentList">Private bathroom</li>
                 </ul>
             </div>
