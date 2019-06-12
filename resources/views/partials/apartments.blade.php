@@ -38,7 +38,7 @@
                 <ul class="apartmentUl">
                     <li class="apartmentList">Room size 50 m²</li>
                     <li class="apartmentList">1 single bed</li>
-                    <li class="apartmentList">1 double extra large bed</li>
+                    <li class="apartmentList">1 extra-large double bed</li>
                     <li class="apartmentList">Terrace</li>
                     <li class="apartmentList">Private bathroom</li>
                 </ul>
