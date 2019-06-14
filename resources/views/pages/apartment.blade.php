@@ -33,7 +33,6 @@
                 <i class="fas fa-angle-double-right arrow"></i>
                 <i class="fas fa-angle-double-left arrow"></i>
 
-
             </article>
 
             <article class="apArticle flex">
@@ -93,6 +92,5 @@
         <a class="callButton apartmentsMore link" href="#">BOOK NOW</a>
 
     </div>
-
 
 @endsection("content")
