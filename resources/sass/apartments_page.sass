@@ -1,33 +1,36 @@
 .apartmentsPage
   width: 100%
+  height: auto
   background-color: $colorGrey
-  padding-top: 120px
+  padding-top: 90px
   flex-wrap: wrap
+  justify-content: center
 
 .apName
   font-size: 2em
   font-family: $fontMain
-  padding: 0.1em
+  padding-bottom: 15px
 
 .apSection
   width: 100%
-  height: 750px
+  height: auto
   flex-direction: row
   flex-wrap: wrap
+  justify-content: center
 
 .apArticle
   width: 35%
-  height: 750px
+  height: auto
   text-align: center
   position: relative
-  padding: 10px
+  flex-direction: column
 
 .mainImg
   width: 100%
-  height: 400px
+  height: 370px
 
 .mainSmall
-  width: 16%
+  width: 15%
   height: auto
 
 .arrow
@@ -50,7 +53,7 @@
   padding-left: 1em
   line-height: 1.7
 
-.fa-shower, .fa-parking
+.fa-shower, .fa-parking, .fa-user-alt
   padding-right: 0.3em
 
 .apTextBold
@@ -70,13 +73,16 @@
   line-height: 1.4
   padding: 0
 
+.callButton
+  background-color: $mobileColor
+  margin: 10px auto
+
+.callButton:hover
+  border-color: black
+
 @media only screen and (min-width: 1025px) and (max-width: 1450px)
   .apartmentsPage
-    height: auto
     padding-top: 80px
-
-  .apSection, .apArticle
-    height: auto
 
   .apArticle
     width: 45%
@@ -84,15 +90,10 @@
 
 @media only screen and  (max-width: 1024px)
   .apartmentsPage
-    height: auto
     padding-top: 80px
-
-  .apSection
-    height: auto
 
   .apArticle
     width: 90%
-    height: auto
     padding-bottom: 25px
 
   .mainImg
@@ -103,3 +104,6 @@
 
   .arrow
     display: none !important
+
+  .apText
+    font-size: 1em

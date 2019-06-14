@@ -1,11 +1,11 @@
 @extends("index")
 
 @section("content")
-    <div class="apartmentsPage flex flexCenter pages">
+    <div class="apartmentsPage flex">
 
         <h1 class="apName">apartment</h1>
 
-        <section class="apSection flex flexCenter">
+        <section class="apSection flex">
 
             <article class="apArticle">
 
@@ -36,10 +36,11 @@
 
             </article>
 
-            <article class="apArticle">
+            <article class="apArticle flex">
 
                 <p class="apText"> <i class="fas fa-shower"></i>Private bathroom</p>
                 <p class="apText"> <i class="fas fa-parking"></i>Free parking</p>
+                <p class="apText apTextBold"><i class="fas fa-user-alt"></i><i class="fas fa-user-alt"></i>Room for:2 persons</p>
                 <p class="apText apTextBold">Room size:50m</p>
                 <p class="apText apTextBold">Room facilities:</p>
 
@@ -88,6 +89,8 @@
             </article>
 
         </section>
+
+        <a class="callButton apartmentsMore link" href="#">BOOK NOW</a>
 
     </div>
 
