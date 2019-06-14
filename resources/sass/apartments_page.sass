@@ -1,0 +1,95 @@
+.apartmentsPage
+  width: 100%
+  background-color: $colorGrey
+  padding-top: 120px
+  flex-wrap: wrap
+
+.apName
+  font-size: 2em
+  font-family: $fontMain
+  padding: 0.1em
+
+.apSection
+  width: 100%
+  height: 750px
+  flex-direction: row
+  flex-wrap: wrap
+
+.apArticle
+  width: 35%
+  height: 750px
+  text-align: center
+  position: relative
+
+.mainImg
+  width: 100%
+  height: 400px
+
+.mainSmall
+  width: 16%
+  height: auto
+
+.arrow
+  font-size: 2em
+  color: $colorWhite
+  position: absolute
+  top: 200px
+
+.fa-angle-double-left
+  left: 0
+
+.fa-angle-double-right
+  right: 0
+
+.apText
+  font-size: 0.9em
+  font-family: $fontSecond
+  color: $textGrey
+  text-align: left
+  padding-left: 1em
+  line-height: 1.7
+
+.fa-shower, .fa-parking
+  padding-right: 0.3em
+
+.apTextBold
+  color: black
+  font-weight: 700
+
+.apDiv
+  width: 100%
+  flex-direction: row
+  justify-content: left
+
+.apUl
+  width: 50%
+  padding-left: 35px
+
+.apLi
+  line-height: 1.4
+  padding: 0
+
+@media only screen and (min-width: 1025px) and (max-width: 1450px)
+  .apartmentsPage
+    height: auto
+    padding-top: 80px
+
+
+@media only screen and  (max-width: 1024px)
+  .apartmentsPage
+    height: auto
+    padding-top: 80px
+
+  .apSection
+    height: auto
+
+  .apArticle
+    width: 90%
+    height: auto
+    padding-bottom: 25px
+
+  .mainImg
+    height: auto
+
+  .arrow
+    display: none

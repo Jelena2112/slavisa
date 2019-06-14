@@ -1,6 +1,7 @@
 <nav class="navbar flex">
     <div class="navDiv flex">
         <a class="navIcon link" href="#">
+
         </a>
         <div class="navMain flex flexCenter fontColorWhite">
             <a class="navbarItem fontColorWhite link" href="#">Home</a>
