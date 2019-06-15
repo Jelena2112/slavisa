@@ -19,6 +19,9 @@ Route::get('apartments/{apartment}', function ($apartmentName) {
     return view('pages/apartment');
 });
 
+Route::get('about_us}', function ($apartmentName) {
+    return view('pages/about_us');
+});
 
 Route::get('welcome/{locale}', function ($locale) {
     App::setLocale($locale);
