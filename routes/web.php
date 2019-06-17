@@ -27,6 +27,10 @@ Route::get('all_apartments', function () {
     return view('pages/all_apartments');
 });
 
+Route::get('contact', function () {
+    return view('pages/contact');
+});
+
 
 Route::get('welcome/{locale}', function ($locale) {
     App::setLocale($locale);
