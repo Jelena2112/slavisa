@@ -26,21 +26,21 @@
 
         <article class="all_ap flex flexCenter">
 
-            <div class="allDiv">
+            <a class="allDiv link" href="#">
                 <h3 class="allName">Delux Studio sa King-Sajz Krevetom</h3>
-            </div>
+            </a>
 
-            <div class="allDiv">
+            <a class="allDiv link" href="#">
                 <h3 class="allName">Delux Studio sa King-Sajz Krevetom</h3>
-            </div>
+            </a>
 
-            <div class="allDiv">
+            <a class="allDiv link" href="#">
                 <h3 class="allName">Delux Studio sa King-Sajz Krevetom</h3>
-            </div>
+            </a>
 
-            <div class="allDiv">
+            <a class="allDiv link" href="#">
                 <h3 class="allName">Delux Studio sa King-Sajz Krevetom</h3>
-            </div>
+            </a>
 
         </article>
 
