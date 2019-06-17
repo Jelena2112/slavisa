@@ -4,7 +4,7 @@
 
     <section class="all_ap_section flex flexCenter">
 
-            <a class="allDiv link" href="#">
+            <a class="allDiv link first" href="#">
                 <h3 class="allName">Delux Studio sa King-Sajz Krevetom</h3>
                 <img class="" src="../images/milna.jpg">
                 <p class="allText">Room size 33 m²</p>
@@ -14,7 +14,7 @@
                 <p class="allText"><i class="fas fa-wind allAp"></i>Air conditioning</p>
             </a>
 
-            <a class="allDiv link" href="#">
+            <a class="allDiv link second" href="#">
                 <h3 class="allName">Delux Studio sa King-Sajz Krevetom</h3>
                 <img class="" src="../images/milna.jpg">
                 <p class="allText">Room size 33 m²</p>
