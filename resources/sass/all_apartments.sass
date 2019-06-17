@@ -1,3 +1,55 @@
 .all_ap_section
   width: 100%
-  background-color: yellow
+  height: calc(100vh - 100px)
+  background-color: $colorGrey
+  flex-wrap: wrap
+
+.all_ap
+  width: 100%
+  height: 40%
+  flex-wrap: wrap
+
+.all_ap:first-child
+  margin-top: 65px
+
+.allDiv
+  width: 21%
+  height: 80%
+  background: url("../images/milna.jpg")
+  background-size: 100% 100%
+  margin: 1em
+
+.allName
+  font-size: 1em
+  color: $colorWhite
+  font-family: $fontSecond
+  font-weight: 550
+  background-color: rgba(1,1,1,0.5)
+
+@media only screen and (min-width: 641px) and (max-width: 1025px)
+  .all_ap_section
+    height: auto
+
+  .all_ap
+    width: 50%
+    height: auto
+    margin: 75px 0
+
+  .allDiv
+    width: 80%
+    height: 200px
+
+@media only screen and  (max-width: 640px)
+  .all_ap_section
+    height: auto
+
+  .all_ap
+    flex-direction: column
+    width: 100%
+    height: auto
+
+  .allDiv
+    width: 80%
+    height: 200px
+
+
