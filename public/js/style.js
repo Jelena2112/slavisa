@@ -56,7 +56,7 @@ $(document).ready(function (){
 
     $(window).scroll(function (){
         if(windowWidth > 1024){
-            if($(window).scrollTop() > 100 ){
+            if($(window).scrollTop() > 50 ){
                 $(".navbar").css({"background-color":"white", "transition-duration":"500ms"});
                 $(".navbarItem").css({"color":"black", "transition-duration":"500ms"});
             }
