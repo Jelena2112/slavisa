@@ -15,7 +15,7 @@
 .input
   width: 350px
   height: 40px
-  font-size: 1em
+  font-size: 0.9em
   font-family: $fontSecond
   padding-left: 5px
   border: none
@@ -29,7 +29,7 @@
   color: $textGrey
 
 .rulesHeader
-  font-size: 1.2em
+  font-size: 1.4em
   padding: 0.5em
 
 .text1
@@ -41,6 +41,17 @@
   font-size: 1.6em
   color: $colorBlue
   padding-right: 0.8em
+
+@media only screen and (min-width: 641px) and (max-width: 1024px)
+  .contactPage
+    flex-direction: column
+
+  .mainForm, .contactRules
+    width: 600px
+    margin: 80px 0 0 0
+
+  .mainForm
+    margin: 15px
 
 @media only screen and (max-width: 640px)
   .contactRules
