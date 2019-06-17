@@ -19,6 +19,8 @@
 
             <p class="input text1"><i class="fas fa-paw rulesIcons"></i>Pets are not allowed.</p>
 
+            <p class="input text1"><i class="fas fa-smoking-ban rulesIcons"></i>No smoking.</p>
+
             <p class="input text1"><i class="far fa-credit-card rulesIcons"></i>We accept only cash payments.</p>
 
         </article>
