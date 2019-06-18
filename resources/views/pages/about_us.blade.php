@@ -45,15 +45,15 @@
 
         </article>
 
-        <article class="apArticle flex about100 row">
+        <article class="apArticle flex  flexCenter about100 row">
 
             <div class="infoDiv">
 
-                <p class="apText blue"> <i class="fas fa-shower rulesIcons"></i>Private bathroom</p>
-                <p class="apText blue"> <i class="fas fa-wifi rulesIcons"></i>Free Wifi</p>
-                <p class="apText blue"> <i class="fas fa-parking rulesIcons"></i>Free parking</p>
-                <p class="apText blue"> <i class="fas fa-umbrella-beach rulesIcons"></i>Adriatic Sea - 0.1km</p>
-                <p class="apText blue"> <i class="fas fa-plane rulesIcons"></i>Split Airport - 26km</p><br>
+                <p class="apText blue"> <i class="fas fa-shower rulesIcons colorW"></i>Private bathroom</p>
+                <p class="apText blue"> <i class="fas fa-wifi rulesIcons colorW"></i>Free Wifi</p>
+                <p class="apText blue"> <i class="fas fa-parking rulesIcons colorW"></i>Free parking</p>
+                <p class="apText blue"> <i class="fas fa-umbrella-beach rulesIcons colorW"></i>Adriatic Sea - 0.1km</p>
+                <p class="apText blue"> <i class="fas fa-plane rulesIcons colorW"></i>Split Airport - 26km</p><br>
 
                 <p class="apText apTextBold">Most popular landmarks:</p>
 
@@ -100,11 +100,9 @@
                 </ul>
             </div>
 
-
-
         </article>
 
-
+        <p class="apText apTextBold"> All distances are measured in straight lines. Actual travel distances may vary.</p>
 
     </section>
 
