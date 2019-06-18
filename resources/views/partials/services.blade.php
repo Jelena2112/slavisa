@@ -66,7 +66,7 @@
 
             <h2 class="servicesItems"><i class="fas fa-glass-martini-alt servicesIcon"></i>Bar</h2>
 
-            <p class="servicesText textItem">Free parking for our guests.</p>
+            <p class="servicesText textItem"> Milna provides adults-only accommodation with a garden, a bar and a shared lounge.</p>
 
         </article>
 
