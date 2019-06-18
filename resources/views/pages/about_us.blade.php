@@ -4,7 +4,7 @@
 
     <section class="contactPage flex flexCenter aboutPage">
 
-        <article class="servicesSection servicesMain flex contactRules aboutPage about50">
+        <article class="servicesSection servicesMain flex contactRules aboutPage margin80">
 
             <h1 class="servicesHeader">OUR SERVICES</h1>
 
@@ -24,7 +24,7 @@
 
         </article>
 
-        <article class="contactRules flex flexCenter aboutPage about50">
+        <article class="infoRules flex flexCenter contactPage">
             <h2 class="rulesHeader">House Rules</h2>
 
             <p class="input text1"><i class="fas fa-clock rulesIcons"></i>Check-in: 14:00-23:00</p>
@@ -45,62 +45,62 @@
 
         </article>
 
-        <article class="apArticle flex about100">
+        <article class="apArticle flex about100 row">
 
-            <p class="apText"> <i class="fas fa-shower"></i>Private bathroom</p>
-            <p class="apText"> <i class="fas fa-wifi"></i> Free Wifi</p>
-            <p class="apText"> <i class="fas fa-parking"></i>Free parking</p>
-            <p class="apText apTextBold"> <i class="fas fa-umbrella-beach"></i> Adriatic Sea - 0.1km</p>
-            <p class="apText apTextBold"> <i class="fas fa-plane"></i> Split Airport - 26km</p>
+            <div class="infoDiv">
 
-            <p class="apText apTextBold">Closest landmarks:</p>
-
-            <div class="apDiv flex">
-
-                <ul class="apUl">
-                    <li class="apLi apText">Lucice Bay - 2.1km</li>
-                    <li class="apLi apText">Senjkovic Winery - 7.3km</li>
-                    <li class="apLi apText">Blaca Desert - 8.4km</li>
-                    <li class="apLi apText">Murvica Beach - 13.7km</li>
-                    <li class="apLi apText">Olive Oil Museum Brac - 13.9</li>
-                    <li class="apLi apText">Gazul - 15.2km</li>
-                    <li class="apLi apText">Vidova gora - 15.3km</li>
-                    <li class="apLi apText">Fortica Fortress - 17km</li>
-                    <li class="apLi apText">Bishop's Palace in Hvar - 17.2km</li>
-                    <li class="apLi apText">St. Stephen's Square in Hvar -17.2km</li>
-
-                </ul>
+                <p class="apText blue"> <i class="fas fa-shower rulesIcons"></i>Private bathroom</p>
+                <p class="apText blue"> <i class="fas fa-wifi rulesIcons"></i>Free Wifi</p>
+                <p class="apText blue"> <i class="fas fa-parking rulesIcons"></i>Free parking</p>
+                <p class="apText blue"> <i class="fas fa-umbrella-beach rulesIcons"></i>Adriatic Sea - 0.1km</p>
+                <p class="apText blue"> <i class="fas fa-plane rulesIcons"></i>Split Airport - 26km</p><br>
 
                 <p class="apText apTextBold">Most popular landmarks:</p>
 
-                <ul class="apUl">
-                    <li class="apLi apText">Stipanska Beach - 18.8km</li>
-                    <li class="apLi apText">Bacvice Beach - 19.5km</li>
-                    <li class="apLi apText">Znjan Beach - 19.7km</li>
-                    <li class="apLi apText">Jezinac Beach - 19.8km</li>
-                    <li class="apLi apText">Kastelet Beach - 19.8km</li>
-                </ul>
-
-                <ul class="apUl">
-                    <li class="apLi apText">list</li>
-                    <li class="apLi apText">list</li>
-                    <li class="apLi apText">list</li>
-                    <li class="apLi apText">list</li>
-                    <li class="apLi apText">list</li>
-                    <li class="apLi apText">list</li>
-                    <li class="apLi apText">list</li>
-                    <li class="apLi apText">list</li>
-                    <li class="apLi apText">list</li>
-                    <li class="apLi apText">list</li>
-                    <li class="apLi apText">list</li>
-                    <li class="apLi apText">list</li>
-                    <li class="apLi apText">list</li>
-                    <li class="apLi apText">list</li>
-                    <li class="apLi apText">list</li>
-                    <li class="apLi apText">list</li>
+                <ul class="infoUl apText">
+                    <li class="apLi apText infoLi">Stipanska Beach - 18.8km</li>
+                    <li class="apLi apText infoLi">Bacvice Beach - 19.5km</li>
+                    <li class="apLi apText infoLi">Znjan Beach - 19.7km</li>
+                    <li class="apLi apText infoLi">Jezinac Beach - 19.8km</li>
+                    <li class="apLi apText infoLi">Kastelet Beach - 19.8km</li>
                 </ul>
 
             </div>
+
+            <div class="infoDiv">
+
+                <p class="apText apTextBold">Closest landmarks:</p>
+
+                <ul class="infoUl apText">
+                    <li class="apLi apText infoLi">Lucice Bay - 2.1km</li>
+                    <li class="apLi apText infoLi">Senjkovic Winery - 7.3km</li>
+                    <li class="apLi apText infoLi">Blaca Desert - 8.4km</li>
+                    <li class="apLi apText infoLi">Murvica Beach - 13.7km</li>
+                    <li class="apLi apText infoLi">Olive Oil Museum Brac - 13.9</li>
+                    <li class="apLi apText infoLi">Gazul - 15.2km</li>
+                    <li class="apLi apText infoLi">Vidova gora - 15.3km</li>
+                    <li class="apLi apText infoLi">Fortica Fortress - 17km</li>
+                    <li class="apLi apText infoLi">Bishop's Palace in Hvar - 17.2km</li>
+                    <li class="apLi apText infoLi">St. Stephen's Square in Hvar -17.2km</li>
+
+                </ul>
+
+            </div>
+
+            <div class="infoDiv">
+
+                <p class="apText apTextBold">Restaurants and markets:</p>
+                <ul class="infoUl apText">
+                    <li class="apLi apText infoLi">Restoran "PALMA" - 1km</li>
+                    <li class="apLi apText infoLi">Caffe Bar Fjaka - 1km</li>
+                    <li class="apLi apText infoLi">Konzum - 1km</li>
+                    <li class="apLi apText infoLi">Market Milna - 1km</li>
+                    <li class="apLi apText infoLi">Lidi - 2km</li>
+
+                </ul>
+            </div>
+
+
 
         </article>
 

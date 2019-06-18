@@ -1,10 +1,47 @@
 .aboutPage
-  background-color: $mobileColor
   flex-wrap: wrap
+  display: flex
 
-.about50
-  width: 48%
-  padding: 0
+.infoRules
+  width: 70%
+  height: auto
+  font-family: $fontSecond
+  background-color: $mobileColor
 
 .about100
   width: 100%
+
+.blue
+  color: $colorBlue
+  line-height: 1.9
+
+.margin80
+  margin-top: 80px
+
+.infoDiv1
+  width: 30%
+  text-align: center
+
+.row
+  flex-direction: row
+
+.infoUl
+  width: 100%
+
+.infoLi
+  line-height: 2
+
+@media only screen and (max-width: 640px)
+  .aboutPage
+    width: 100%
+
+  .margin80
+    margin-top: 30px
+    padding-left: 1em
+
+  .infoRules
+    width: 100%
+
+  .apArticle
+    flex-direction: column
+
