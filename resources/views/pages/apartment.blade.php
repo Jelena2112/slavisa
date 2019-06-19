@@ -9,26 +9,35 @@
 
             <article class="apArticle">
 
-                <img class="mainImg" src="../images/milna.jpg">
+                <img class="mainImg slider-for lSSlideWrapper usingCss" src="../images/milna.jpg">
 
-                <img class="mainSmall" src="../images/milna.jpg">
-                <img class="mainSmall" src="../images/milna.jpg">
-                <img class="mainSmall" src="../images/milna.jpg">
-                <img class="mainSmall" src="../images/milna.jpg">
-                <img class="mainSmall" src="../images/milna.jpg">
-                <img class="mainSmall" src="../images/milna.jpg">
-                <img class="mainSmall" src="../images/milna.jpg">
-                <img class="mainSmall" src="../images/milna.jpg">
-                <img class="mainSmall" src="../images/milna.jpg">
-                <img class="mainSmall" src="../images/milna.jpg">
-                <img class="mainSmall" src="../images/milna.jpg">
-                <img class="mainSmall" src="../images/milna.jpg">
-                <img class="mainSmall" src="../images/milna.jpg">
-                <img class="mainSmall" src="../images/milna.jpg">
-                <img class="mainSmall" src="../images/milna.jpg">
-                <img class="mainSmall" src="../images/milna.jpg">
-                <img class="mainSmall" src="../images/milna.jpg">
-                <img class="mainSmall" src="../images/milna.jpg">
+                <ul id="imageGallery">
+
+                    <li><img class="mainSmall slider-nav" src="../images/milna.jpg"></li>
+                    <li><img class="mainSmall slider-nav" src="../images/milna.jpg"></li>
+                    <li><img class="mainSmall slider-nav" src="../images/milna.jpg"></li>
+
+
+                </ul>
+
+                <img class="mainSmall slider-nav" src="../images/milna.jpg">
+                <img class="mainSmall slider-nav" src="../images/milna.jpg">
+                <img class="mainSmall slider-nav" src="../images/milna.jpg">
+                <img class="mainSmall slider-nav" src="../images/milna.jpg">
+                <img class="mainSmall slider-nav" src="../images/milna.jpg">
+                <img class="mainSmall slider-nav" src="../images/milna.jpg">
+                <img class="mainSmall slider-nav" src="../images/milna.jpg">
+                <img class="mainSmall slider-nav" src="../images/milna.jpg">
+                <img class="mainSmall slider-nav" src="../images/milna.jpg">
+                <img class="mainSmall slider-nav" src="../images/milna.jpg">
+                <img class="mainSmall slider-nav" src="../images/milna.jpg">
+                <img class="mainSmall slider-nav" src="../images/milna.jpg">
+                <img class="mainSmall slider-nav" src="../images/milna.jpg">
+                <img class="mainSmall slider-nav" src="../images/milna.jpg">
+                <img class="mainSmall slider-nav" src="../images/milna.jpg">
+                <img class="mainSmall slider-nav" src="../images/milna.jpg">
+                <img class="mainSmall slider-nav" src="../images/milna.jpg">
+                <img class="mainSmall slider-nav" src="../images/milna.jpg">
 
                 <i class="fas fa-angle-double-right arrow"></i>
                 <i class="fas fa-angle-double-left arrow"></i>

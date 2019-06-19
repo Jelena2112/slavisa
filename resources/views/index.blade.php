@@ -21,7 +21,11 @@
         <script src="/js/style.js"></script>
         <script type="text/javascript" src="/js/moment.min.js"></script>
         <script type="text/javascript" src="/js/daterangepicker.min.js"></script>
+        <script type="text/javascript" src="/js/lightslider.js"></script>
         <link rel="stylesheet" type="text/css" href="/css/daterangepicker.min.css" />
+        <link rel="stylesheet" type="text/css" href="/css/lightslider.css" />
+
+
     </body>
 
 

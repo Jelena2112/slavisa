@@ -4,6 +4,7 @@ $(document).ready(function (){
     var windowWidth = $(window).width();
     var navClick = false;
 
+
     var images = [
         "../images/milna_photoshop.png",
         "../images/milna1.jpg",
@@ -14,6 +15,7 @@ $(document).ready(function (){
     setInterval(function (){
 
         if(currentImage == 0){
+
             currentImage++;
         }
         else if(currentImage == 1){
@@ -27,10 +29,12 @@ $(document).ready(function (){
         $(".home").css({
             "background": "url(" + images[currentImage] + ")",
             "background-size": "100% 100%",
-            "background-repeat": "no-repeat"
+            "background-repeat": "no-repeat",
+            "transition-duration":"500ms",
+            "transition-timing-function":"ease"
         });
 
-    },2000);
+    },2500);
 
     $(".mobNav").click(function (){
         if(!navClick){
