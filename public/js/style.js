@@ -15,7 +15,6 @@ $(document).ready(function (){
     setInterval(function (){
 
         if(currentImage == 0){
-
             currentImage++;
         }
         else if(currentImage == 1){
@@ -31,10 +30,61 @@ $(document).ready(function (){
             "background-size": "100% 100%",
             "background-repeat": "no-repeat",
             "transition-duration":"500ms",
-            "transition-timing-function":"ease"
+            "transition-timing-function":"linear"
         });
 
     },2500);
+
+    $(".home").cbFullScreenSlideShow({
+
+        img: [
+
+        "../images/milna_photoshop.png",
+
+        "../images/milna1.jpg",
+
+
+        ]
+    });
+
+    $(".home").cbFullScreenSlideShow({
+
+        // array of images
+        img: [
+            "../images/milna_photoshop.png",
+
+            "../images/milna1.jpg",
+
+
+        ],
+
+        // width / height of the slideshow
+        width: "100%",
+        height: "100vh",
+
+        // z-index property
+        zindex: 999,
+
+        // background color
+        background: "rgba(1,1,1,0)",
+
+        // animation duration
+        duration: 1000,
+
+        // animation interval
+        interval: 5000,
+
+        // blur property
+        blur: "0px",
+
+        // grayScale property
+        grayscale: "0%",
+
+        // sepia property
+        sepia: "0%"
+
+    });
+
 
     $(".mobNav").click(function (){
         if(!navClick){

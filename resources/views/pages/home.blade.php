@@ -2,6 +2,7 @@
 
 @section("content")
    <section class="home flex flexCenter">
+
        <form class="homeForm flex flexCenter">
 
            <span class="wrapForm date flex flexCenter">

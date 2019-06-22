@@ -1,11 +1,14 @@
+@mixin background
+  background-repeat: no-repeat
+  background-size: 100% 100%
+  transition-duration: 500ms
+  transition-timing-function: linear
+
 .home
   width: 100%
   height: 100vh
   background: url("../images/milna_photoshop.png")
-  background-repeat: no-repeat
-  background-size: 100% 100%
-  transition-duration: 500ms
-  transition-timing-function: ease
+  @include background
 
 .homeForm
   width: 800px

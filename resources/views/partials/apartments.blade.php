@@ -3,7 +3,7 @@
 
     <section class="apartmentsSection flex flexCenter">
 
-        <article class="apartmentsArticle flex">
+        <article class="apartmentsArticle flex flexCenter">
             <img class="image" src="images/milna.jpg" alt="image">
             <div class="apartmentDiv flex">
                 <a class="apartmentsRoom link">DELUXE KING STUDIO</a>

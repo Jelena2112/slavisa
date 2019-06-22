@@ -7,41 +7,56 @@
 
         <section class="apSection flex">
 
-            <article class="apArticle">
+            <article class="apArticle lSSlideOuter">
 
-                <img class="mainImg slider-for lSSlideWrapper usingCss" src="../images/milna.jpg">
-
-                <ul id="imageGallery">
-
-                    <li><img class="mainSmall slider-nav" src="../images/milna.jpg"></li>
-                    <li><img class="mainSmall slider-nav" src="../images/milna.jpg"></li>
-                    <li><img class="mainSmall slider-nav" src="../images/milna.jpg"></li>
-
+                <ul id="imageGallery" class="mainImg">
+                    <li data-thumb="../images/milna_photoshop.png" >
+                        <img  src="../images/milna_photoshop.png" />
+                    </li>
+                    <li data-thumb="../images/milna1.jpg">
+                        <img src="../images/milna1.jpg" />
+                    </li>
+                    <li data-thumb="../images/milna1.jpg">
+                        <img src="../images/milna2.jpg" />
+                    </li>
+                    <li data-thumb="../images/milna1.jpg">
+                        <img src="../images/milna2.jpg" />
+                    </li>
+                    <li data-thumb="../images/milna1.jpg">
+                        <img src="../images/milna2.jpg" />
+                    </li>
+                    <li data-thumb="../images/milna1.jpg">
+                        <img src="../images/milna2.jpg" />
+                    </li>
+                    <li data-thumb="../images/milna1.jpg">
+                        <img src="../images/milna2.jpg" />
+                    </li>
+                    <li data-thumb="../images/milna1.jpg">
+                        <img src="../images/milna2.jpg" />
+                    </li>
+                    <li data-thumb="../images/milna1.jpg">
+                        <img src="../images/milna2.jpg" />
+                    </li>
+                    <li data-thumb="../images/milna1.jpg">
+                        <img src="../images/milna2.jpg" />
+                    </li>
+                    <li data-thumb="../images/milna1.jpg">
+                        <img src="../images/milna2.jpg" />
+                    </li>
+                    <li data-thumb="../images/milna1.jpg">
+                        <img src="../images/milna2.jpg" />
+                    </li>
+                    <li data-thumb="../images/milna1.jpg">
+                        <img src="../images/milna2.jpg" />
+                    </li>
+                    <li data-thumb="../images/milna1.jpg">
+                        <img src="../images/milna2.jpg" />
+                    </li>
+                    </li>
 
                 </ul>
-
-                <img class="mainSmall slider-nav" src="../images/milna.jpg">
-                <img class="mainSmall slider-nav" src="../images/milna.jpg">
-                <img class="mainSmall slider-nav" src="../images/milna.jpg">
-                <img class="mainSmall slider-nav" src="../images/milna.jpg">
-                <img class="mainSmall slider-nav" src="../images/milna.jpg">
-                <img class="mainSmall slider-nav" src="../images/milna.jpg">
-                <img class="mainSmall slider-nav" src="../images/milna.jpg">
-                <img class="mainSmall slider-nav" src="../images/milna.jpg">
-                <img class="mainSmall slider-nav" src="../images/milna.jpg">
-                <img class="mainSmall slider-nav" src="../images/milna.jpg">
-                <img class="mainSmall slider-nav" src="../images/milna.jpg">
-                <img class="mainSmall slider-nav" src="../images/milna.jpg">
-                <img class="mainSmall slider-nav" src="../images/milna.jpg">
-                <img class="mainSmall slider-nav" src="../images/milna.jpg">
-                <img class="mainSmall slider-nav" src="../images/milna.jpg">
-                <img class="mainSmall slider-nav" src="../images/milna.jpg">
-                <img class="mainSmall slider-nav" src="../images/milna.jpg">
-                <img class="mainSmall slider-nav" src="../images/milna.jpg">
-
                 <i class="fas fa-angle-double-right arrow"></i>
                 <i class="fas fa-angle-double-left arrow"></i>
-
             </article>
 
             <article class="apArticle flex">
